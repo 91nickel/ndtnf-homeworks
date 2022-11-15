@@ -1,0 +1,21 @@
+{
+  "name": "typescript-tsc",
+  "version": "1.0.0",
+  "description": "<details>\r <summary>Что вы должны увидеть в итоге шага</summary>",
+  "main": "app.js",
+  "scripts": {
+    "build": "tsc --project ./tsconfig.json --watch",
+    "eslint": "eslint --cache --ext .js,.jsx,.ts,.tsx src",
+    "eslint:dump": "eslint --print-config ./.eslintrc.json",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@typescript-eslint/eslint-plugin": "^5.4.0",
+    "@typescript-eslint/parser": "^5.4.0",
+    "eslint": "^8.3.0",
+    "typescript": "^4.5.2"
+  }
+}
